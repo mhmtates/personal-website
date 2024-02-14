@@ -1,0 +1,21 @@
+#main-footer{
+    background: $dark-color;
+    color: #fff;
+    height: 8rem;
+
+    .footer-content{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 8rem;
+    }
+    .social-media-icons a i{
+        margin-right: 1.6rem;
+        transition: all .6s;
+        color: #fff;
+        &:hover{
+          color: $primary-color;
+          cursor:pointer;
+        }
+    }
+}

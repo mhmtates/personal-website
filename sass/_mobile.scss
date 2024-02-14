@@ -1,0 +1,133 @@
+//tablet ve daha düşük cihazlar için
+@media(max-width:768px) {
+    .lead{
+        font-size: 1.8rem;
+        word-spacing: 2px;
+        font-weight: 500;
+    }
+  
+    #header {
+
+        &__home {
+            height: 48rem;
+
+            .header-content {
+                padding-top: 11rem;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+
+    #home__a .skills,
+    #home__b .profile,
+    #home__c .process,
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+//cep telefonları için
+@media(max-width:576px) {
+    .lead{
+        font-size: 1.6rem;
+        word-spacing: 2px;
+        font-weight: 500;
+    }
+   
+   
+   
+    #header {
+
+        &__home {
+            height: 16rem;
+            background-position: center 20%;
+            border-bottom: 2px solid $primary-color;
+
+            .header-content {
+                display: none;
+            }
+        }
+
+        &__inner {
+            height: 16rem;
+        }
+
+
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+
+        li {
+            padding: 1.6rem;
+        }
+    }
+
+    #home__a .skills,
+    #home__b .profile,
+    #home__c .process,
+    .items,
+    #contact-b .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    #main-footer {
+        height: 11rem;
+
+        .footer-content {
+            flex-direction: column-reverse;
+            height: 8rem;
+            gap: 2rem;
+
+            .social-media-icons {
+                padding-top: 1.6rem;
+            }
+        }
+    }
+
+    #about {
+        &-a {
+            .info {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        &-c {
+            .about-logos {
+                display: none;
+            }
+        }
+   }
+
+    #contact {
+        &-a {
+            .form-container {
+              grid-template-areas:   
+              'name'
+              'email'
+              'subject' 
+              'phone'
+              'message'
+              'button';
+            }
+        }
+
+        &-b {
+             div{
+                margin-bottom: 1.6rem;
+                padding-bottom: 1.6rem;
+                border-bottom: 1px dashed #fff;
+                
+                &:last-child{
+                    border: none;
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                }
+             }
+        }
+    }
+}
