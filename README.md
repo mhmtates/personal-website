@@ -1,2 +1,2 @@
 ## Personal WebSite
-<b>Digiway Akademi Front-End</b> Eğitimi kişisel web sayfası</p>
+<b>Anasayfa,Hakkımda,Projelerim ve İletişim </b> bölümlerinden oluşan bir kişisel web sitesi
