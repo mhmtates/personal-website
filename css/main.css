@@ -69,16 +69,11 @@ input[class^='btn-']:hover {
   padding-bottom: 1.6rem;
   text-transform: uppercase; }
 
-.border-bottom {
-  background-color: #EF6D6D;
-  height: 3px;
-  width: 4.8rem;
-  margin: 0 auto; }
-
 .lead {
   font-size: 2.2rem;
   word-spacing: 3px;
-  font-weight: 500; }
+  font-weight: 500;
+  text-align: left; }
 
 .items {
   display: grid;
@@ -111,15 +106,6 @@ input[class^='btn-']:hover {
     .items .item:hover {
       transform: scale(1.85); }
 
-#home__a .skills {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.6rem;
-  margin-bottom: 4rem; }
-  #home__a .skills i {
-    color: #EF6D6D;
-    padding-bottom: 2rem; }
-
 #home__b .profile {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
@@ -137,30 +123,6 @@ input[class^='btn-']:hover {
       background-color: #F4F4F4; }
     #home__b .profile div:nth-child(even) {
       background-color: #ccc; }
-
-#home__c .process {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2.4rem; }
-  #home__c .process__step {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 2.5rem;
-    background: #EF6D6D;
-    border-radius: 50%;
-    line-height: 30px;
-    padding: 1.5rem; }
-  #home__c .process__icon {
-    position: relative;
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5.8rem 2rem;
-    font-size: 5rem; }
 
 .main-nav {
   display: flex;
@@ -183,7 +145,7 @@ input[class^='btn-']:hover {
           border-color: #EF6D6D; }
 
 #header__home {
-  background: url("../images/bg.jpeg") no-repeat center right/cover;
+  background: url("../images/me.jpeg") no-repeat center center/cover;
   height: 100vh;
   color: #000; }
   #header__home .header-content {
@@ -196,7 +158,7 @@ input[class^='btn-']:hover {
     display: block; }
 
 #header__inner {
-  background: url("../images/bg.jpeg") no-repeat 40% 20%/cover;
+  background: url("../images/me.jpeg") no-repeat 40% 20%/cover;
   height: 8.8rem;
   border-bottom: 3px solid #EF6D6D; }
 
