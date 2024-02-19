@@ -1,2 +1,9 @@
 ## Personal WebSite
-<b>Anasayfa,Hakkımda,Projelerim ve İletişim </b> bölümlerinden oluşan bir kişisel web sitesi
+ Digiway Akademi Front-End eğitiminde yapmış olduğum kişisel web sitesi
+## İçindekiler
+
+- [Anasayfa](#index)
+- [Hakkımda](#about)
+- [Projelerim](#projects)
+- [İletişim](#contact)
+
