@@ -1,5 +1,5 @@
-## Personal WebSite
- Digiway Akademi Front-End eğitiminde yapmış olduğum kişisel web sitesi
+## Web Developer Portfolio
+ Digiway Akademi Front-End eğitiminde yaptığım bir portfolyo sitesi.(Proje daha sonra güncellenecektir)
 ## İçindekiler
 
 - [Anasayfa](#index)
