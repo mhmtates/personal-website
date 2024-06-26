@@ -105,6 +105,10 @@ input[class^='btn-']:hover {
         */ }
     .items .item:hover {
       transform: scale(1.85); }
+    .items .item__text__description {
+      width: 100%;
+      word-spacing: 5px;
+      text-align: center; }
 
 #home__b .profile {
   display: grid;
