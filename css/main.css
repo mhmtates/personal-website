@@ -239,8 +239,12 @@ img {
     border-radius: 3px; }
   #about-a .info__bio {
     border: 1px solid #F4F4F4;
-    padding: 1.2rem;
-    border-radius: 3px; }
+    padding: 5rem;
+    border-radius: 3px;
+    word-spacing: 4px; }
+    #about-a .info__bio__social__media__icons i {
+      padding-right: 1rem;
+      margin-top: 2rem; }
 
 #about-b {
   color: #fff; }
@@ -257,11 +261,11 @@ img {
 #about-c .about-logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3.2rem;
+  gap: 2rem;
   align-items: center; }
 
 #about-c img {
-  width: 70%; }
+  width: 40%; }
 
 #about-d .references ul {
   display: flex;

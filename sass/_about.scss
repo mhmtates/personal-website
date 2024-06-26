@@ -1,69 +1,91 @@
-#about{
-    
-    &-a{
-        .info{
+#about {
+
+    &-a {
+        .info {
             display: grid;
             grid-template-columns: 1fr 2fr;
             gap: 2rem;
 
-            &__image{
+            &__image {
                 border: 1px solid $light-color;
                 padding: .8rem;
                 border-radius: 3px;
 
             }
-            &__bio{
+
+            &__bio {
                 border: 1px solid $light-color;
-                padding: 1.2rem;
+                padding: 5rem;
                 border-radius: 3px;
+                word-spacing: 4px;
+
+                &__social__media__icons {
+
+                    i {
+                        padding-right:1rem;
+                        margin-top: 2rem;
+                        
+                    }
+
+
+                }
+
             }
-           
-            }
-        
+
+
+        }
+
 
     }
-    &-b{
-       color: #fff;
-       .progress-items{
-        height: 2rem;
-        background-color: $medium-color;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        margin-bottom: 1.2rem;
-      div{
-        height: 100%;
-        background-color: $primary-color;
-      }
+
+    &-b {
+        color: #fff;
+
+        .progress-items {
+            height: 2rem;
+            background-color: $medium-color;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-bottom: 1.2rem;
+
+            div {
+                height: 100%;
+                background-color: $primary-color;
+            }
+        }
     }
- } 
-    &-c{
-        .about-logos{
+
+    &-c {
+        .about-logos {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 3.2rem;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
             align-items: center;
         }
-        img{
-            width: 70%;
+
+        img {
+            width: 40%;
         }
     }
 
-    &-d{
-        .references{
-            ul{
-                display:flex;
-                margin-top:1.6rem;
+    &-d {
+        .references {
+            ul {
+                display: flex;
+                margin-top: 1.6rem;
                 align-items: center;
 
             }
-            p{
-                border:1px solid $medium-color;
+
+            p {
+                border: 1px solid $medium-color;
                 padding: .8rem;
                 border-radius: 5px;
             }
-            img{
-                width:5rem;
-                height:5rem;
+
+            img {
+                width: 5rem;
+                height: 5rem;
                 border-radius: 50%;
                 padding-right: .8rem;
 
